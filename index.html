@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio - Introduction to Computing</title>
+    <link rel="stylesheet" href="style. css (2).css">
+</head>
+<body>
+
+    <div class="card header-card">
+        <h1 align="center">MY PORTFOLIO</h1>
+        <h3 align="center" id="dynamic-greeting">Student Portfolio | Introduction to Computing</h3>
+        <hr>
+        
+        <p align="center" class="nav-bar">
+            <a href="#about" class="nav-link active">About Me</a> | 
+            <a href="#achievement" class="nav-link">Achievements</a> | 
+            <a href="#cpp-loops" class="nav-link">C++ Loops</a> | 
+            <a href="#activities" class="nav-link">Activities Table</a> | 
+            <a href="#feedback" class="nav-link">Student Form</a>
+        </p>
+    </div>
+
+    <div class="dashboard-viewport">
+        <div class="dashboard-slider" id="slider">
+
+            <div class="card panel-section" id="about">
+                <h2 align="left">About Me</h2>
+                <p align="left">
+                    <img src="face.png" alt="My Profile Photo" width="120" height="120" align="right" class="profile-img">
+                    Hello! I'm Justine Miko Saballa, a 1st year IT student and soon to be a <b>Future Developer.</b> Welcome!
+                    <br><br>
+					</p>
+				<img src="bird.jpg">
+               <p>  Use the anchor menu above to switch between different sections. This layout demonstrates HTML structural tags, CSS transitions, and JavaScript sliding controls.
+                </p>
+            </div>
+
+            <div class="card panel-section" id="achievement">
+                <h2 align="left">My Achievements</h2>
+                
+                <h3 align="left">1. C++ Student Grade Calculator Program</h3>
+                <p align="left">
+                    Successfully designed and built a functional Student Grade Calculator console application utilizing C++ loop statements (<code>for</code> and <code>while</code>) and conditional logic.
+                </p>
+                <hr>
+
+                <h3 align="left">2. HTML Exercises 1 to 7 Completion</h3>
+                <p align="left">
+                    Mastered and completed all fundamental web design laboratory exercises:
+                </p>
+                <ul>
+                    <li><b>Exercises 1-2:</b> Basic HTML tags, document structure, headings with alignment, and horizontal lines (<code>&lt;hr&gt;</code>).</li>
+                    <li><b>Exercises 3-4:</b> Image resources (<code>&lt;img&gt;</code>), anchor href links (<code>&lt;a&gt;</code>), ordered lists (<code>&lt;ol&gt;</code>), and unordered lists (<code>&lt;ul&gt;</code>).</li>
+                    <li><b>Exercise 5:</b> Advanced tables featuring custom headers, cell padding, <code>rowspan</code>, and <code>colspan</code> attributes.</li>
+                    <li><b>Exercises 6-7:</b> Interactive form elements including text inputs, radio buttons, and submit buttons.</li>
+                </ul>
+            </div>
+
+            <div class="card panel-section" id="cpp-loops">
+                <h2 align="left">Programming Background: C++ Loop Statements</h2>
+                <p align="left">
+                    In our C++ programming lessons, we studied control structures including <code>for</code> loops and <code>while</code> loops which I used in my Grade Calculator project:
+                </p>
+                
+                <h4 align="left">1. C++ For Loop Example</h4>
+                <pre>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    for(int i = 1; i &lt;= 5; i++) {
+        cout &lt;&lt; "Subject " &lt;&lt; i &lt;&lt; " Grade Loaded." &lt;&lt; endl;
+    }
+    return 0;
+}
+                </pre>
+
+                <h4 align="left">2. C++ While Loop Example</h4>
+                <pre>
+#include &lt;iostream&gt;
+using namespace std;
+
+int main() {
+    int choice = 1;
+    while(choice == 1) {
+        cout &lt;&lt; "Grade Calculator Active." &lt;&lt; endl;
+        cout &lt;&lt; "Enter 0 to exit: ";
+        cin &gt;&gt; choice;
+    }
+    return 0;
+}
+                </pre>
+            </div>
+
+            <div class="card panel-section" id="activities">
+                <h2 align="left">Past Subject Activities</h2>
+                <p align="left">Here is a table summarizing our past activities in Introduction to Computing:</p>
+
+               <table border="1" width="100%" align="center" cellpadding="6">
+    <thead>
+        <tr>
+            <th align="center" valign="middle">File / Exercise</th>
+            <th align="left" valign="middle">Activity Name</th>
+            <th align="left" valign="middle">Topics Covered</th>
+            <th align="center" valign="middle">Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center" valign="top"><a href="Exercise 1.html" target="_blank">Exercise 1</a></td>
+            <td align="left" valign="top"><a href="Exercise 1.html" target="_blank">First Homepage</a></td>
+            <td align="left" valign="top">Basic tags and text formatting</td>
+            <td align="center" valign="top">Completed</td>
+        </tr>
+        <tr>
+            <td align="center" valign="top"><a href="Exercise 2.html" target="_blank">Exercise 2</a></td>
+            <td align="left" valign="top"><a href="Exercise 2.html" target="_blank">Webpage Formatting</a></td>
+            <td align="left" valign="top">Headings and paragraph breaks</td>
+            <td align="center" valign="top">Completed</td>
+        </tr>
+        <tr>
+            <td align="center" valign="top"><a href="Exercise 3.html" target="_blank">Exercise 3</a></td>
+            <td align="left" valign="top"><a href="Exercise 3.html" target="_blank">Background & Text Editing</a></td>
+            <td align="left" valign="top">Background color, bold tags, and horizontal lines</td>
+            <td align="center" valign="top">Completed</td>
+        </tr>
+        <tr>
+            <td align="center" valign="top"><a href="Exercise 4.html" target="_blank">Exercise 4</a></td>
+            <td align="left" valign="top"><a href="Exercise 4.html" target="_blank">Unordered Lists</a></td>
+            <td align="left" valign="top">List items and structural layout</td>
+            <td align="center" valign="top">Completed</td>
+        </tr>
+        <tr>
+            <td align="center" valign="top"><a href="Exercise 5 (1).html" target="_blank">Exercise 5</a></td>
+            <td align="left" valign="top"><a href="Exercise 5 (1).html" target="_blank">Advanced Tables & Layouts</a></td>
+            <td align="left" valign="top">Image sources, links, blockquotes, and tables</td>
+            <td align="center" valign="top">Completed</td>
+        </tr>
+        <tr>
+            <td align="center" valign="top"><a href="Exercise6.html" target="_blank">Exercise 6</a></td>
+            <td align="left" valign="top"><a href="Exercise6.html" target="_blank">Form Inputs & Radio Buttons</a></td>
+            <td align="left" valign="top">Text boxes, radio buttons, colspan, and buttons</td>
+            <td align="center" valign="top">Completed</td>
+        </tr>
+        <tr>
+            <td align="center" valign="top"><a href="Exercise7JMMS.html" target="_blank">Exercise 7</a></td>
+            <td align="left" valign="top"><a href="Exercise7JMMS.html" target="_blank">Image Searching & Feedback Form</a></td>
+            <td align="left" valign="top">Rowspan, inputs, search bars, and date formats</td>
+            <td align="center" valign="top">Completed</td>
+        </tr>
+    </tbody>
+</table>
+            </div>
+
+            <div class="card panel-section" id="feedback">
+                <h2 align="left">HTML Input Forms Exercise</h2>
+                <p align="left">Demonstrating <code>input type="text"</code>, <code>input type="radio"</code>, and JS controls:</p>
+
+                <form id="student-form">
+                    <p align="left">
+                        <label for="student_name"><b>Your Name:</b></label><br>
+                        <input type="text" id="student_name" name="student_name" placeholder="Enter your full name" required>
+                    </p>
+
+                    <p align="left">
+                        <b>Which programming topic did you enjoy most?</b><br>
+                        <input type="radio" id="topic1" name="favorite_topic" value="C++ Loops">
+                        <label for="topic1">C++ Loop Statements & Grade Calculator</label><br>
+
+                        <input type="radio" id="topic2" name="favorite_topic" value="HTML Exercises 1-7">
+                        <label for="topic2">HTML Exercises (Tables, Spans, Lists, Forms)</label><br>
+
+                        <input type="radio" id="topic3" name="favorite_topic" value="JavaScript Dashboard">
+                        <label for="topic3">JavaScript Sliding Navigation</label>
+                    </p>
+
+                    <p align="left">
+                        <input type="submit" value="Submit Form">
+                    </p>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="card footer-card">
+        <h5 align="center">&copy; 2026 Justine Miko M. Saballa | Introduction of Computing Final project</h5>
+    </div>
+
+    <script src="jcript.js"></script>
+</body>
+</html>
